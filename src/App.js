@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar,Container,Nav,Form, FormControl,Button } from 'react-bootstrap';
 
 const API_URL="https://api.themoviedb.org/3/movie/popular?api_key=c13f8f8e3320bc1fcd17ff4e5dc51627";
-//const API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=c13f8f8e3320bc1fcd17ff4e5dc51627&query";
+// const API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=c13f8f8e3320bc1fcd17ff4e5dc51627&query";
 
 function App() {
 
@@ -44,8 +44,8 @@ function App() {
     <>
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container fluid>
-//         <Navbar.Brand href="/home">MovieDb App</Navbar.Brand>
-//         <Navbar.Brand href="/home">Trending</Navbar.Brand>
+        {/* <Navbar.Brand href="/home">MovieDb App</Navbar.Brand>
+        <Navbar.Brand href="/home">Trending</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
 
           <Navbar.Collapse id="nabarScroll">
