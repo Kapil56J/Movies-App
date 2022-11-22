@@ -45,7 +45,7 @@ function App() {
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container fluid>
         {/* <Navbar.Brand href="/home">MovieDb App</Navbar.Brand>*/}
-        <Navbar.Brand href="/home">Back</Navbar.Brand> 
+        <Navbar.Brand href="/home">Home</Navbar.Brand> 
         <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
 
           <Navbar.Collapse id="nabarScroll">
